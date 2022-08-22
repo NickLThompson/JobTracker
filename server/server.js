@@ -3,12 +3,12 @@
 import express, { json } from "express";
 import path from 'path';
 
-// 
+// mongodb stuff
 import { MongoClient as mongodb } from "mongodb";
 
 // creating an express application
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 // requiring our connection to the mongoose database
 import db from "./config/connection";
