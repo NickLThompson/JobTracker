@@ -1,6 +1,6 @@
-import { Express } from "express";
-import jobsRoutes from "./jobsRoutes";
+const Express = require("express");
+const jobsRoutes = require("./jobsRoutes");
 
 router.use("/jobs", jobsRoutes);
 
-export default router;
+module.exports = router;

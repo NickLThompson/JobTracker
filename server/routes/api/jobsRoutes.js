@@ -1,12 +1,12 @@
-import { Express } from "express";
-import router from "router";
-import {
+const Express = require("express");
+const router = require("router");
+const {
     getJobs,
     getSingleJob,
     createJob,
     updateJob,
     deleteJob,
-} from ("../../controllers/jobsController");
+} = require("../../controllers/jobsController");
 
 router.route("/")
 .get(getJobs)

@@ -1,6 +1,6 @@
 // importing the jobs model into this controller
 // this is what connects our models to the MongoDB database; see Insomnia
-import Jobs from "../models/Jobs";
+const { Jobs } = require("../models/Jobs");
 
 // ~/Bootcamp/UNCC/18-NoSQL/01-Activities/25-Int-CRUD-Subdoc
 // CRUD operations (Create, Read, Update, and Delete)

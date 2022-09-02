@@ -1,3 +1,3 @@
-import Jobs from "./Jobs";
+const { Jobs } = require("./Jobs");
 
-export default { Jobs };
+module.exports = Jobs;

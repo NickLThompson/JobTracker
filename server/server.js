@@ -47,3 +47,7 @@ app.get("/show", (req, res) => {
       res.send(results);
     });
 });
+
+app.get("showall", (req, res) => {
+  
+})
